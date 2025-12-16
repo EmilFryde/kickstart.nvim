@@ -231,7 +231,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 
 -- require keymaps.
-require('custom.keymaps').setup()
+require('custom.ros').setup()
 
 ---@type vim.Option
 local rtp = vim.opt.rtp
